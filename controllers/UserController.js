@@ -2,8 +2,10 @@
 
 class UserController {
   async create(request, response) {
-    response.status(201).json(request.body);
-   
+    response
+      .status(201)
+      .json(request.body)
+      
   }
 }
 
